@@ -1,5 +1,10 @@
 /*
-Copyright (c) 2011 (coding by Vitaliy Fedorets <ps.axjf@gmail.com>; idea, mentorship, sponsorship by Vitaly Puzrin <vitaly@rcdesign.ru>
+Copyright (c) 2011 Vitaly Puzrin
+
+Authors:
+
+  Vitaliy Fedorets <ps.axjf@gmail.com> (implementation) 
+  Vitaly Puzrin <vitaly@rcdesign.ru> (idea, mentorship, sponsorship)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
