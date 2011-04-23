@@ -8,6 +8,7 @@ Supported languages: Russian, English. Better support can be done via [hacked Go
 
 You can try this plugin @ [demo page](http://nodeca.github.com/ckeditor-yaspeller/).
 
+
 Installation
 ============
 
@@ -28,11 +29,6 @@ Spellchecker can be controlled in the same way, as Scayt, with button `SpellChec
 
 Errors highlight style is defined in `./yaspeller/css/yaspeller.css` file.
 
-Contributors
-============
-
-- [Vitaliy Fedorets](https://github.com/ps-axjf) (ps.axjf@gmail.com)
-- [Vitaly Puzrin](https://github.com/puzrin) (vitaly@rcdesign.ru)
 
 License
 =======
