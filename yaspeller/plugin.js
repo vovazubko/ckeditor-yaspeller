@@ -184,8 +184,11 @@ THE SOFTWARE.
         }
       }
       var current_text = CKEDITOR.instances[cinstance].getData();
-      for (word in yaspeller_errors[cinstance]) {
-        current_text = current_text.replaceAll(word, '<span class="yaspeller_error" data-spell-word="' + word + '">' + word + '</span>');
+      for (word in yaspeller_errors[cinstance]){
+        current_text = current_text.replace(
+        new RegExp('\\b' + word + '\\b', 'g'),
+          '<span class="yaspeller_error" data-spell-word="'+word+'">'+word+'</span>'
+        );
       }
       CKEDITOR.instances[cinstance].document.getBody().setHtml(current_text);
       if (focusafter) {
